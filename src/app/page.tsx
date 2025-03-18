@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="home">
-      <h1>Welcome to Our Nail Studio</h1>
+      <h1>Welcome to Shallow Nail Studio</h1>
       <div className="gallery">
         <a href="https://www.instagram.com/p/C9ScZh2OdDV/?img_index=1">
           <Image src="/nail-example-2.png" alt="Nail design 1" width={250} height={250} />

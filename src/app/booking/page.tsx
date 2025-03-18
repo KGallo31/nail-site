@@ -1,3 +1,4 @@
+
 export default function Booking() {
     return (
       <div className="booking">
@@ -35,13 +36,20 @@ export default function Booking() {
               <input type="email" id="email" name="email" required />
             </div>
             <div className="form-group">
+              <label htmlFor="phone">Phone Number:</label>
+              <input type="tele" id="tele" name="phone-number" required />
+            </div>
+            <div className="form-group">
               <label htmlFor="date">Preferred Date:</label>
               <input type="date" id="date" name="date" required />
             </div>
             <div className="form-group">
-              <label htmlFor="service">Service:</label>
-              <select id="service" name="service" required>
-                <option value="">Select a service</option>
+              <label htmlFor="time">Preferred Time:</label>
+              <input type="time" id="time" name="time" required />
+            </div>
+            <div className="form-group">
+              <label htmlFor="service">Service: (Hold CTRL or CMD to select multiple)</label>
+              <select id="service" name="service" required multiple>
                 <option value="manicure">Manicure</option>
                 <option value="pedicure">Pedicure</option>
                 <option value="gel-polish">Gel Polish</option>
